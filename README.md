@@ -17,3 +17,41 @@ Date Dimension (Calendar): one row per date with attributes (Date, Year, Month, 
 Product Dimension: product attributes (ProductID, Name, Category, Subcategory, etc.).
 Customer Dimension: customer attributes (CustomerID, Name, Region, Segment, etc.).
 Salesperson or Channel Dimension: (optional) to attribute sales to individual or channel.
+
+
+
+Check & Clean the Data (Power Query)
+
+Open Transform Data and verify the dataset.
+
+Things to do:
+
+Remove unnecessary columns
+
+Rename columns properly
+
+Fix data types (date, number, text)
+
+Remove duplicates
+
+Handle null values
+
+
+
+
+
+Load Data
+   ↓
+Clean Data (Power Query)
+   ↓
+Create Relationships
+   ↓
+Create Measures (DAX)
+   ↓
+Build Visuals
+   ↓
+Add Filters / Slicers
+   ↓
+Design Dashboard
+   ↓
+Publish Report
