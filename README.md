@@ -10,7 +10,7 @@ This Sales Overview Power BI project provides a high-level analytical dashboard 
 
 Data Sources and Schema:
 
-This project assumes sales-related data comes from typical enterprise sources, such as a transaction database (e.g. SQL), CRM or ERP system, and possibly flat files (CSV/Excel). Common tables include:
+This project assumes sales-related tables include:
 
 Sales Orders (Fact Table): contains transactional records of each sale (OrderID, Date, CustomerID, ProductID, Quantity, SalesAmount, Cost, etc.).
 Date Dimension (Calendar): one row per date with attributes (Date, Year, Month, Quarter, Day, Week, Fiscal flags).
